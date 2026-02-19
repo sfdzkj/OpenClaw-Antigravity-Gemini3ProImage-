@@ -36,16 +36,19 @@
 
 打开 SKILL.md，找到文件顶部的 USER\_CONFIG 区域，填入你的服务信息：
 
- # ================= USER\_CONFIG (用户配置区) =================  
-\# 请在此处填入你的服务地址和 Key  
-\# Please fill in your service URL and Key here  
-USER\_CONFIG = {  
-    "url": "",  # e.g., "https://gemini.onw.cc/v1/chat/completions"  
-    "key": "",  # e.g., "sk-xxxxxxxxxxxxxxxx"  
-    "model": "gemini-3-pro-image",  
-    "default\_size": "1024x1024"  
-}  
-\# ===========================================================
+```
+ # ================= USER_CONFIG (用户配置区) =================
+# 请在此处填入你的服务地址和 Key
+# Please fill in your service URL and Key here
+USER_CONFIG = {
+    "url": "",  # e.g., "https://gemini.onw.cc/v1/chat/completions"
+    "key": "",  # e.g., "sk-xxxxxxxxxxxxxxxx"
+    "model": "gemini-3-pro-image",
+    "default_size": "1024x1024"
+}
+# ===========================================================
+```
+
 
 #### 第三步：配置 AGENTS.md (可选但推荐)
 
